@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #f16059;
   font-size: 1.5rem;
   padding-bottom: 30px;
@@ -42,11 +42,12 @@ nav ul li a,
 p,
 ul,
 code {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: black;
 }
 
-p, ul {
+p,
+ul {
   line-height: 1.5;
 }
 
@@ -59,7 +60,7 @@ a {
 }
 
 code {
-  background-color: #EEECEC;
+  background-color: #eeecec;
   padding: 0 3px;
   color: #1717b0;
 }
@@ -219,7 +220,6 @@ section {
 /* End child flex item styles */
 
 @media (min-width: 768px) {
-
   .property-description {
     width: 80%;
   }
@@ -293,7 +293,6 @@ section {
   }
 
   /* End child flex item styles */
-
 }
 
 @media (min-width: 1200px) {
@@ -453,7 +452,7 @@ section#flex-wrap-section {
 .flex-wrap-nowrap-parent-container {
   /* place your code here */
   display: flex;
-  flex-wrap:nowrap;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
 }
 
@@ -543,8 +542,8 @@ section#align-content-section {
 
 /* gap */
 section#gap-section {
-/* place your code here */
-display: flex;
+  /* place your code here */
+  display: flex;
 }
 
 .gap-parent-container {
@@ -628,7 +627,7 @@ section#flex-direction-section {
 
 /* flex-flow section */
 section#flex-flow-section {
-  /* place your code here */ 
+  /* place your code here */
   display: flex;
 }
 
@@ -656,7 +655,7 @@ section#flex-flow-section {
 .flex-flow-column-nowrap-parent-container {
   /* place your code here */
   display: flex;
-  flex-flow: column nowrap;  
+  flex-flow: column nowrap;
   justify-content: space-evenly;
 }
 
@@ -679,10 +678,12 @@ section#flex-flow-section {
 /* flex section */
 section#flex-content-section {
   /* place your code here */
+  display: flex;
 }
 
 .flex-row-parent-container {
   /* Add display: flex; to make this div a parent flex container */
+  display: flex;
 }
 
 .child-flex-basis-box {
@@ -717,31 +718,38 @@ section#flex-content-section {
 /* order */
 section#order-section {
   /* place your code here */
+  display: flex;
 }
 
 .order-parent-container {
   /* Add display: flex; to make this div a parent flex container */
+  display: flex;
   justify-content: space-around;
 }
 
 .order-child-flex-item-1 {
   /* place your code here */
+  order: 2;
 }
 
 .order-child-flex-item-2 {
   /* place your code here */
+  order: 3;
 }
 
 .order-child-flex-item-3 {
   /* place your code here */
+  order: 4;
 }
 
 .order-child-flex-item-4 {
   /* place your code here */
+  order: 5;
 }
 
 .order-child-flex-item-5 {
   /* place your code here */
+  order: 1;
 }
 
 /* end order */
@@ -749,35 +757,43 @@ section#order-section {
 /* align-self */
 section#align-self-section {
   /* place your code here */
+  display: flex;
 }
 
 .align-self-parent-container {
   /* Add display: flex; to make this div a parent flex container */
+  display: flex;
   justify-content: space-around;
 }
 
 .align-self-auto-child-flex-item {
   /* place your code here */
+  align-self: auto;
 }
 
 .align-self-flex-start-child-flex-item {
   /* place your code here */
+  align-self: flex-start;
 }
 
 .align-self-flex-end-child-flex-item {
   /* place your code here */
+  align-self: flex-end;
 }
 
 .align-self-center-child-flex-item {
   /* place your code here */
+  align-self: center;
 }
 
 .align-self-baseline-child-flex-item {
   /* place your code here */
+  align-self: baseline;
 }
 
 .align-self-stretch-child-flex-item {
   /* place your code here */
+  align-self: stretch;
 }
 
 /* end align-self */
